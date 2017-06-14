@@ -28,10 +28,10 @@ body {
   font-weight: 300;
 }
 
-
-.row {
-
+#self h5 {
+  padding-bottom: 10px;
 }
+
 
 #navbar {
   padding-top: 40px;
@@ -46,6 +46,21 @@ body {
 .thumbnail {
 
 }
+
+#icon-panel img{
+  max-width: 26px;
+  max-height: 26px;
+  float: left;
+  margin-right: 10px;
+}
+
+#icon-panel p {
+  padding-top: 2px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+
 
 #display {
   width: 600px;
