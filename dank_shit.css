@@ -1,3 +1,7 @@
+a {
+  color: #3a3a3a;
+}
+
 #profile {
   max-width: 130px;
   max-height: 130px;
@@ -15,7 +19,7 @@ body {
 
 #pseudo-nav {
   padding-top: 20px;
-   padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 #self h4{
@@ -32,6 +36,10 @@ body {
   padding-bottom: 10px;
 }
 
+#self p {
+  text-align: justify;
+}
+
 
 #navbar {
   padding-top: 40px;
@@ -40,11 +48,6 @@ body {
 
 .card {
   margin-bottom: 40px;
-}
-
-
-.thumbnail {
-
 }
 
 #icon-panel img{
@@ -61,14 +64,20 @@ body {
 }
 
 
-
+/* for the card display panel */
 #display {
   width: 600px;
   height: 400px;
+  padding: 28px 10px 20px 10px;
   border-radius: 4px;
-  box-shadow: 0px 0px 12px 0px #b7b7b7;
+  box-shadow: 0 0 6px #b7b7b7;
 }
 
 #display a {
   margin-top: 100px;
+}
+
+#display img {
+  max-width: 120px;
+  max-height: 120px;
 }
